@@ -8,24 +8,29 @@ var mesDelAño = document.getElementById('mes').value;
 switch(mesDelAño)
 {
     case "Septiembre" :
-    case "Octubre" : 
-    case "Noviembre" :
-    case "Diciembre" :
-    {
         alert("falta para el invierno");
         break;
-    }
+    case "Octubre" : 
+        alert("falta para el invierno");
+        break;
+    case "Noviembre" :
+        alert("falta para el invierno");
+        break;
+    case "Diciembre" :
+        alert("falta para el invierno");
+        break;
+    
     case "Julio" :
-    case "Agosto" :
-    {
         alert("abrigate que hace frio");
         break;
-    }
+    case "Agosto" :
+        alert("abrigate que hace frio");
+        break;
+    
     default :
-    {
         alert("ya pasamos el frio, ahora el calor");
         break;
-    }
+    
 }
 
 
