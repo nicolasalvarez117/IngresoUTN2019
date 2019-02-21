@@ -7,6 +7,15 @@ function Mostrar()
 	
 	var respuesta='si';
 
+while(respuesta == "si")
+{
+	positivo = parseInt(prompt("ingrese un numero positivo"));
+	negativo = parseInt(prompt("ingrese un negativo"));
+	posivito = positivo + positivo;
+	negativo = negativo * negativo;
+	respuesta = prompt("quiere seguir con la operacion? si - no");
+}
+
 
 document.getElementById('suma').value=positivo;
 document.getElementById('producto').value=negativo;

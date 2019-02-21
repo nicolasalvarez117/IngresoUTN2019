@@ -4,10 +4,10 @@ function Mostrar()
 
   while(numero <11)
   {
-	  alert("numero "+numero);
-	  numero = numero + 1;
+	  console.log("numero "+numero);
+	  numero++;
   }
-
+ 
 
 
 }//FIN DE LA FUNCIÓN
